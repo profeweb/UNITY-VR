@@ -19,7 +19,7 @@ public class InputReader : MonoBehaviour
     void InitializeInputReader()
     {
 
-        //InputDevices.GetDevices(inputDevices);
+        InputDevices.GetDevices(inputDevices);
         InputDevices.GetDevicesWithCharacteristics(InputDeviceCharacteristics.Right | InputDeviceCharacteristics.Controller, inputDevices);
 
         foreach (var inputDevice in inputDevices)

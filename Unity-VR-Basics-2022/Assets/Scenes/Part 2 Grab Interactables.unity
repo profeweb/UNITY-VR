@@ -411,10 +411,10 @@ MonoBehaviour:
   m_DirectionalAnchorRotationAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Directional Anchor Rotation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 2881b750-2351-4b05-86bb-221a8d5f14b0
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1515,10 +1515,10 @@ MonoBehaviour:
   m_TrackingStateInput:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Tracking State Input
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: aa9f3a27-f274-458b-9a5c-0606bcb0ea16
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2207,10 +2207,10 @@ MonoBehaviour:
   m_DirectionalAnchorRotationAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Directional Anchor Rotation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: dbb6fe83-641a-47d6-8abe-1254647fc0a1
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
