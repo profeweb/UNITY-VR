@@ -25,6 +25,7 @@ public class DisplayInputData : MonoBehaviour
         {
             _leftMaxScore = Mathf.Max(leftVelocity.magnitude, _leftMaxScore);
             leftScoreDisplay.text = _leftMaxScore.ToString("F2");
+        
         }
         if (_inputData._rightController.TryGetFeatureValue(CommonUsages.deviceVelocity, out Vector3 rightVelocity))
         {
