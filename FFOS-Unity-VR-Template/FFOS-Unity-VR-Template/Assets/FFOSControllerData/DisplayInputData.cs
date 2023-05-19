@@ -32,5 +32,40 @@ public class DisplayInputData : MonoBehaviour
             _rightMaxScore = Mathf.Max(rightVelocity.magnitude, _rightMaxScore);
             rightScoreDisplay.text = _rightMaxScore.ToString("F2");
         }
+
+
+        if (_inputData._leftController.TryGetFeatureValue(CommonUsages.primaryButton, out bool buttonLeft))
+        {
+            if (buttonLeft) 
+            { 
+                leftScoreDisplay.text = "ON"; 
+            }
+            else
+            {
+                leftScoreDisplay.text = "OFF";
+            }
+
+        }
+
+
+        if (_inputData._rightController.TryGetFeatureValue(CommonUsages.primaryButton, out bool buttonRight))
+        {
+            if (buttonRight)
+            {
+                rightScoreDisplay.text = "ON";
+            }
+            else
+            {
+                rightScoreDisplay.text = "OFF";
+            }
+
+        }
+
+
+        if (_inputData._leftController.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 axis))
+        {
+            leftScoreDisplay.text = axis.x.ToString();
+            rightScoreDisplay.text = axis.y.ToString();
+        }
     }
 }
