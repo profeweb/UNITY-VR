@@ -6,6 +6,8 @@ using UnityEngine.Pool;
 public class BulletSpawner : MonoBehaviour
 {
 
+    /*
+
     public bool useObjectPooling = false;
     public Bullet bulletPrefab;
 
@@ -56,4 +58,5 @@ public class BulletSpawner : MonoBehaviour
             _currentBullet = InstantiatePoolBullet(bulletPrefab, transform.position, transform.rotation);
         }
     }
+    */
 }

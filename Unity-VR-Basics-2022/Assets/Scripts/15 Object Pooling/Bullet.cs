@@ -6,7 +6,7 @@ using UnityEngine.Pool;
 
 public class Bullet : MonoBehaviour
 {
-
+    /*
     public float speed;
     private ObjectPool<Bullet> _pool;
     private Rigidbody _rigidbody;
@@ -55,4 +55,5 @@ public class Bullet : MonoBehaviour
             DestroyBullet(gameObject);
         }
     }
+    */
 }
